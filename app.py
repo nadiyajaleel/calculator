@@ -1,6 +1,5 @@
 
-from flask import
-Flask,render_template,request
+from flask import Flask,render_template,request
 
 app = Flask(__name__)
 
@@ -28,5 +27,5 @@ def cal(num1, num2, operation):
     elif operation == 'division':
         return num1 / num2
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run()
